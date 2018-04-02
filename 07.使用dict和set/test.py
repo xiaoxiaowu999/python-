@@ -2,7 +2,7 @@
 # dict 冒号前面没有空格，冒号后面要有空格
 # dict内部存放的顺序和key放入的顺序是没有关系的
 # key的对象就不能变
-d = {'Michael': 95, 'Bob': 75, 'Tracy': 85} 
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
 print(d['Michael'])
 
 if 'Michael' in d:

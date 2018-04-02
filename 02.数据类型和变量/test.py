@@ -1,16 +1,14 @@
-#这是我的注释
+# 这是我的注释
 
 a = 1.235e8
 
-if a >=0 :
-    print(a)    
-else :
+if a >= 0:
+    print(a)
+else:
     print(-a)
 
 print(r'''hello,\n
 world''')
-
-
 
 b1 = True
 b2 = False
@@ -22,15 +20,13 @@ print(b3)
 b3 = not b2
 print(b3)
 
-
 a = 'ABC'
 b = a
 a = 'XYZ'
 print(b)
 
-
-print('测试除法1\n', 10/3)
-print('测试除法2\n', 10//3)
+print('测试除法1\n', 10 / 3)
+print('测试除法2\n', 10 // 3)
 
 n = 123
 f = 456.789
